@@ -18,19 +18,21 @@ const App = () => {
     <Router>
       <div className="App">
         <Header />  {/* Including the Header component */}
-        <Routes>
-          <Route path="/" element={<Home />} />  {/* Render Home component at root path */}
-          <Route path="/services" element={<Services />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/services/building-construction" element={<BuildingConstruction />} />
-          <Route path="/services/renovations-remodeling" element={<RenovationsAndRemodelling />} />
-          <Route path="/services/interior-design-finishing" element={<InteriorDesignAndFinishing />} />
-          <Route path="/services/outdoor-landscaping" element={<OutdoorAndLandscape />} />
-          <Route path="/services/repairs-maintenance" element={<RepairsAndMaintenance />} />
-          <Route path="/services/consulting-advisory" element={<ConsultancyAndAdvisory />} />
-          {/* Add more routes as needed */}
-          <Route path="*" element={<Navigate to="/" replace />} /> {/* Redirect any unknown routes to / */}
-        </Routes>
+        <div style={{ paddingTop: '70px' }}>  {/* Adding padding to prevent overlap */}
+          <Routes>
+            <Route path="/" element={<Home />} />  {/* Render Home component at root path */}
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/services/building-construction" element={<BuildingConstruction />} />
+            <Route path="/services/renovations-remodeling" element={<RenovationsAndRemodelling />} />
+            <Route path="/services/interior-design-finishing" element={<InteriorDesignAndFinishing />} />
+            <Route path="/services/outdoor-landscaping" element={<OutdoorAndLandscape />} />
+            <Route path="/services/repairs-maintenance" element={<RepairsAndMaintenance />} />
+            <Route path="/services/consulting-advisory" element={<ConsultancyAndAdvisory />} />
+            {/* Add more routes as needed */}
+            <Route path="*" element={<Navigate to="/" replace />} /> {/* Redirect any unknown routes to / */}
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>

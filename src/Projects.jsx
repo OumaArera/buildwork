@@ -14,8 +14,6 @@ const Projects = () => {
 
   return (
     <div className="project-details-container">
-      <br />
-      <br />
       <h1 className="text-3xl font-bold text-center my-8">Our Project</h1>
       <div className="bg-white shadow-lg rounded-lg p-4 max-w-3xl mx-auto">
         <img src={projectData.image} alt={projectData.name} className="rounded-lg w-full h-64 object-cover mb-4" />
