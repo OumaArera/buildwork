@@ -18,7 +18,7 @@ const App = () => {
     <Router>
       <div className="App">
         <Header />  {/* Including the Header component */}
-        <div style={{ paddingTop: '70px' }}>  {/* Adding padding to prevent overlap */}
+        <div style={{ paddingTop: '90px' }}>  {/* Adding padding to prevent overlap */}
           <Routes>
             <Route path="/" element={<Home />} />  {/* Render Home component at root path */}
             <Route path="/services" element={<Services />} />
