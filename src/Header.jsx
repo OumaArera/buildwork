@@ -25,7 +25,7 @@ const Header = () => {
         />
         <div className="hidden sm:block text-white">
           <h1 className="text-3xl font-bold">BuildWork Constructors</h1>
-          <p className="text-sm font-light">Quality. Innovative. Construction.</p>
+          <p className="text-lg font-light">Quality. Innovative. Construction.</p>
         </div>
       </div>
       <nav className="hidden md:flex space-x-8">
