@@ -24,7 +24,7 @@ const Header = () => {
           className="h-16 shadow-lg rounded-full border-2 border-white transform transition-transform duration-300 hover:scale-105 hover:rotate-3"
         />
         <div className="hidden sm:block text-white">
-          <h1 className="text-2xl font-bold">BuildWork Constructors</h1>
+          <h1 className="text-3xl font-bold">BuildWork Constructors</h1>
           <p className="text-sm font-light">Quality. Innovative. Construction.</p>
         </div>
       </div>
