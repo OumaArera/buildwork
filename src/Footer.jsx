@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaHome, FaProjectDiagram, FaServicestack } from 'react-icons/fa';
 
 const Footer = () => {
-  // Function to get the current year
   const getCurrentYear = () => new Date().getFullYear();
 
   return (
